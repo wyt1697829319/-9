@@ -1,0 +1,56 @@
+footer{
+    width: 100%;
+    height: 289px;
+    background-color: #ebebeb;
+}
+footer .footer{
+    width: 1233px;
+    height: 100%;
+    margin: 0 auto;
+    .footer-l{
+        width: 704px;
+        height: 271px;
+        margin: 0 auto;
+        padding-top:17px ;
+        .footer-t{
+            width: 174px;
+            height: 58px;
+            margin: 0 auto;
+       ul{
+           li:nth-child(1){
+               list-style: none;
+               float: left;
+               width: 60px;
+               height: 50px;
+               background: url(../../static/images/未标题-1.png) no-repeat center center;
+               p{
+                   font-size: 14px;
+                   padding-top: 40px;
+               }
+           }
+           li:nth-child(2){
+               list-style: none;
+               float: right;
+               width: 70px;
+               height: 50px;
+               background: url(../../static/images/未标题-2.png) no-repeat center center;
+               p{
+                   font-size: 14px;
+                   padding-top: 40px;
+               }
+           }
+       } 
+        }
+    }
+}
+footer .footer .footer-l p{
+    font-size: 12px;
+    padding-top: 20px;
+    text-align: center;
+    cursor: pointer;
+}
+footer .footer .footer-l p:nth-child(2){
+    font-size: 14px;
+    background: url(../../static/images/未标题-3.png) no-repeat 165px 20px;
+    
+}

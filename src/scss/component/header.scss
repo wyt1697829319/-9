@@ -1,0 +1,92 @@
+.tou{
+    width: 100%;
+    height: 100%;
+    background-color: #f9f9f9;
+}            
+.tou .header{
+    width: 1243px;
+    height: 32px;
+    margin: 0 auto;
+    a{
+        color: #3e3e3e;
+    }
+    a:hover{
+          color: #b51c00;
+    }
+}
+.tou .header a:nth-child(1){
+    display: block;
+    width: 91px;
+    height: 21px;
+    background: url(../../static/images/66.png) no-repeat left center;
+    float: right;
+    font-size: 12px;
+
+    text-align: right;
+    margin-top: 6px;
+}
+.tou .header a:nth-child(2){
+    font-size: 12px;
+
+    float: right;
+    margin-right: 40px;
+    margin-top: 6px;
+}
+.roll{
+    width: 100%;
+    height: 75px;
+    display: none;
+    z-index: 100;
+    background: #fff;
+    .roll-c{
+        width: 1344px;
+        height: 100%;
+        margin: 0 auto;
+        position: relative;
+        top: -31px;
+        .car-c{
+            width: 138px;
+            height: 42px;
+            display: block;
+            background: url(../../static/images/w1.png) no-repeat center center;
+            float: right;
+            position: absolute;
+            right: 70px;
+            top: 17px;
+            background-size:60% ;
+        }
+        .nav{
+    width: 720px;
+    height: 57px;
+    margin: 0 auto;
+    margin-top: 28px;
+    ul{
+        width: 720px;
+        height: 57px;
+        margin-top: 20px;
+        float: left;
+        li{
+            width: 120px;
+            height: 51px;
+            line-height: 40px;
+            text-align: center;
+            float: left;
+            a{
+                color: #3e3e3e;
+            }
+            a:hover{
+                color: #b51a00;
+            }
+        }
+    }
+}
+        .wea{
+            display: block;
+            width: 207px;
+            height: 24px;
+            background: url(../../static/images/logo_new.png) no-repeat center center;
+            margin-top: 19px;
+            float: left;
+        }
+    }
+}

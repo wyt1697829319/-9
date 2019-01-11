@@ -1,0 +1,52 @@
+@import "./component/style.scss";
+@import "./component/header.scss";
+@import "./component/footer.scss";
+
+main{
+    width: 100%;
+    height: 162px;
+    .main{
+        width: 1296px;
+        height: 100%;
+        margin: 0 auto;
+        .a-y{
+            margin-left: 503px;
+            margin-top: 30px;
+            display: block;
+            width: 200px;
+            height: 30px;
+            background: url(../static/images/logo_new.png) no-repeat center center;
+            background-size: 80%;
+        }
+        input{
+            border: none;
+            outline: none;
+            border-bottom: 1px solid #3e3e3e;
+            width: 206px;
+            height: 26px;
+            float: right;
+            
+        }
+        .pic{
+            width: 84px;
+            height: 32px;
+            background: url(../static/images/159.png) no-repeat center center ;
+            background-size: 80%;
+            float: right;
+            display: block;
+        }
+     
+        
+    }
+}
+
+.car{
+    width: 100%;
+    height: 619px;
+    border-top: 1px solid #e5e5e5;
+    .car-1{
+        width: 1296px;
+        height: 100%;
+        margin: 0 auto;
+    }
+}

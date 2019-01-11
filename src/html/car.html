@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="/css/car.css">
+		<script type="text/javascript" src="/libs/require/require.js" data-main="/js/car"></script>
+	</head>
+	<body>
+		<header></header>
+		<main>
+			<div class="main">
+				<a href="http://localhost:7749" class="a-y"></a>
+				<a href="#" class="pic"></a>
+				<input type="" name="" id="" placeholder="  雪域芝士蛋糕" />
+			</div>
+		</main>
+		<div class="car">
+			<div class="car-1">
+				<table style="margin-left: 180px;">
+					<thead>
+						<tr>
+				            <th><label>全选：<input type="checkbox" id="allCheck"/></label></th>
+				            <th>图片</th>
+				            <th>名称</th>
+				            <th style="padding-left: 15px; padding-right: 15px;">单价</th>
+				            <th>数量</th>
+				            <th>编辑</th>
+				            
+				        </tr>
+					</thead>
+			        <tbody>
+			        	
+			        </tbody>
+			        <tfoot>
+			        	<tr>
+			        		<td colspan="5">总价：￥<b id="money"></b></td>
+			        	</tr>
+			        </tfoot>
+			   </table>
+			</div>
+		</div>
+		<footer></footer>
+		
+		<script type="text/html" id="templateP">
+		{{each pro curr}}
+			<tr>
+	        	<td><input type="checkbox" class="check"/></td>
+	            <td><img class="img-1" style="width: 60px; height: 60px;" src="{{curr.img}}"/></td>
+	            <td><span class="title-t">{{curr.title}}</span></td>
+	            <td><span class="pie" style="padding-left:15px ;">{{curr.price}}</span></td>
+	            <td><input class="num" type="text" value="{{curr.amounts}}" /></td>
+	            <td class="ext">
+	            	<a href="javascript:;" class="editBtn">编辑</a>
+	            	<a href="javascript:;" class="okBtn">确定</a>
+	            	<a href="javascript:;" class="cancelBtn">取消</a>
+	            	<a href="javascript:;" class="delBtn">删除</a>
+	            </td>
+	        </tr>
+	       {{/each}}
+		</script>
+	</body>
+</html>
